@@ -8,3 +8,5 @@ figlet('Hello World!!', function(err, data) {
     }
     console.log(data)
 });
+
+// l'ho importato così perchè nelle dependencies ho inserito type : module
