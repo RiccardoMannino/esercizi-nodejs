@@ -1,16 +1,26 @@
 {
   "name": "esercizi-node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiccardoMannino/esercizi-nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/RiccardoMannino/esercizi-nodejs/issues"
+  },
   "dependencies": {
     "figlet": "^1.5.2"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
   }
 }
