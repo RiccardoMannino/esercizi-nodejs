@@ -1,12 +1,12 @@
-import figlet from 'figlet'
+import figlet from "figlet";
 
-figlet('Hello World!!', function(err, data) {
+figlet("Hello World!!", function (err, data) {
     if (err) {
-        console.log('Something went wrong...');
+        console.log("Something went wrong...");
         console.dir(err);
         return;
     }
-    console.log(data)
+    console.log(data);
 });
 
 // l'ho importato così perchè nelle dependencies ho inserito type : module
