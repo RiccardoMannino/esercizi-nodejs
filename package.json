@@ -20,7 +20,8 @@
     "url": "https://github.com/RiccardoMannino/esercizi-nodejs/issues"
   },
   "dependencies": {
-    "figlet": "^1.5.2"
+    "figlet": "^1.5.2",
+    "supertest": "^6.3.0"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
