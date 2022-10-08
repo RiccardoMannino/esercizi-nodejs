@@ -25,3 +25,7 @@ const persons = ["Tina", "Jorge", "Julien"];
 for (const person of persons) {
     getresult(person);
 }
+// oppure senza ciclo
+// getresult("Tina");
+// getresult("Jorge");
+// getresult("Julien");
