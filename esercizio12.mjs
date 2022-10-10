@@ -15,6 +15,10 @@ function luckyDraw(player) {
 async function getresult(valore) {
     try {
         const person = await luckyDraw(valore);
+
+        // const person = await Promise.allSettled(
+        //     valore.map(async (id) => luckyDraw(id))
+        // );
         console.log(person);
     } catch (error) {
         console.log(error.message);
@@ -22,6 +26,7 @@ async function getresult(valore) {
 }
 const persons = ["Tina", "Jorge", "Julien"];
 
+// getresult(persons);
 for (const person of persons) {
     getresult(person);
 }
